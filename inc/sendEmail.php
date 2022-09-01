@@ -7,7 +7,7 @@ include '../src/PHPMailer.php';
 include '../src/SMTP.php';
 
 // Replace this with your own email address
-$siteOwnersEmail = 'tammingagivondo@gmail.com';
+$siteOwnersEmail = 'kevmaina14@gmail.com';
 
 
 if($_POST) {
@@ -56,12 +56,12 @@ if($_POST) {
 	$mail->SMTPAutoTLS = false;
 	$mail->Host = 'smtp.gmail.com';
 	$mail->Username=$siteOwnersEmail;
-	$mail->Password="hoglpbjcrqizecwu";
+	$mail->Password="sbdmsukviebaelhw";
 	$mail->SMTPKeepAlive = true; 
 	$mail->Port="465";
 	$mail->isHTML(true);
 	$mail->SetFrom($email);
-	$mail->addAddress($siteOwnersEmail);
+	$mail->addAddress('tammingagivondo@gmail.com');
 	$mail->Subject=$subject;
 	$mail->Body=$message;
 
