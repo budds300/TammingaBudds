@@ -291,3 +291,7 @@
 	});		
 
 })(jQuery);
+
+const object ={
+	lec:
+}
